@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+.nav-pills li a:hover{
+
+    background: blue;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.hello{
+    
+    /* background:url('SkyeMorale.jpg') rgba(0, 0, 0, 0.3); */
+    background-size: cover;
+    background-position: left 40%;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: auto;
+    margin-top: -5px;
+    white-space: nowrap;
+
+}
+.box-style {
+  
+    text-align: center;
+}
+.box-style p{
+  
+    font-size: 50px;
+}
+
+
+@media (max-width: 930px) {
+    .box-style p {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+@media (max-width: 430px) {
+    .box-style p {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .box-style p {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .box-style h2 {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+.sid {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    width:100%;
+}
+
+.dropdown-divider {
+    height: 1px;
+    background-color: white;
+    margin-top: 10px;
+    /* Adjust the margin as needed */
+    /* Adjust the margin as needed */
+}
+
+.table-container {
+     /* Set the maximum width */
+    overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+    margin-left: 0 auto; /* Center align the container */
+}
+
+/* Add CSS styles for the table */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white; /* Set the background color to white */
+        color: black; /* Set the text color to black */
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid rgba(0, 0, 0, 0.1); /* Adjust the border color */
+        text-align: left;
+        padding: 5px;
+    }
+
+    th {
+        background-color: rgba(0, 0, 0, 0.1); /* Adjust the background color for header */
+    }
+
+    th:not(:first-child),
+    td:not(:first-child) {
+        border-left: 1px solid rgba(0, 0, 0, 0.1); /* Adjust the left border color */
+    }
+
+
+.hidden{
+    opacity: 0;
+    display: none;
+}

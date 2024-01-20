@@ -1,0 +1,46 @@
+
+.navbar{
+   
+    background: #030303;
+    top: 0;
+    left: 0;
+    color: white;
+    padding: 0 3rem 0 3rem;
+    z-index: 5;
+    
+ }
+ .card-view {
+    background-image: linear-gradient(to bottom, black, purple); 
+    
+
+  }
+  
+  .card-img-top{
+    border-radius: 50px;
+    padding : 20px;
+    height:50vh;
+    width:100%;
+ 
+  }
+  .card{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .card-body{
+    padding: 25px;
+    margin-top: -15px;
+ 
+  }
+  h5{
+    align-items: center;
+  }
+  .container{
+    align-items: center;
+ 
+  }
+  #viewmorepast{
+    border-radius: 10px;
+    padding: 10px;
+  }
+ 
